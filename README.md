@@ -64,7 +64,7 @@ Setting up project locally is a pretty easy step.
 
 1. Clone the repo
   ```sh
-  git clone 
+  git clone https://github.com/Kis123mas/API-AUTHENTICATION.git
   ```
 2. Move into the project directory
   ```
