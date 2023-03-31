@@ -8,13 +8,9 @@ This project is done with the aim of learning about **Django REST framework** an
 All of the following are technologies used in this project:
 
 | Backend | Django |
-| -------- | ----------- |
 | Api | Django REST framework |
-| -------- | ----------- |
 | Project Management and Version Control | Github |
-| -------- | ----------- |
 | Database | sqlite |
-| -------- | ----------- |
 | Test of Endpoints | Postman |
 
 ## Features
