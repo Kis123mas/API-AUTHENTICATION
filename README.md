@@ -49,6 +49,7 @@ USER REGISTERATION TEST.
 
 
 400 Bad Request Responses.
+
 {
     "username": [
         "A user with that username already exists."
