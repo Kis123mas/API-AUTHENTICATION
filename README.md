@@ -48,6 +48,16 @@ USER REGISTERATION TEST.
 | status | 400 Bad Request - Error in registeration |
 
 
+400 Bad Request Responses.
+{
+    "username": [
+        "A user with that username already exists."
+    ],
+    "email": [
+        "A user with that Email already exists"
+    ]
+}
+
 
 [__LOGIN ENDPOINT__]
 
