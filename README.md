@@ -49,6 +49,7 @@ USER REGISTERATION TEST.
 
 
 200_OK Request Responses.
+
 {
     "user_info": {
         "id": 9,
