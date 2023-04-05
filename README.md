@@ -34,7 +34,7 @@ All of the following are technologies used in this project:
 ## EndPoints Test
 * Application used for testing the endpoints - *POSTMAN*
 
-[__Register Endpoint__]
+[__REGISTER ENDPOINT__]
 
 | Request | POST |
 | -------- | ----------- |
