@@ -36,7 +36,7 @@ All of the following are technologies used in this project:
 
 [__REGISTER ENDPOINT__]
 
-User Registeration. 
+USER REGISTERATION TEST. 
 | Request | POST |
 | -------- | ----------- |
 | Url | http://127.0.0.1:8000/api/register/ |
