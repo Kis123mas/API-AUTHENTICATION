@@ -42,23 +42,9 @@ All of the following are technologies used in this project:
 | -------- | ----------- |
 | Select body, and then click on form-data | fill in these keys  : username, password, email, first_name and last_name *fill in your values for the keys and send* |
 | -------- | ----------- |
-| status_200 ok | {
-    "user_info": {
-        "id": 8,
-        "username": "user4",
-        "email": "123457891@gmail.com"
-    },
-    "token": "adf50c2a06b44cf8363e6f1b7709d72f73c0e93deea5e409c2dc429a2974720c"
-} |
+| status | 200_OK |
 | -------- | ----------- |
-| 400 Bad Request | {
-    "username": [
-        "A user with that username already exists."
-    ],
-    "email": [
-        "A user with that Email already exists"
-    ]
-} |
+| status | 400 Bad Request |
 
 
 
