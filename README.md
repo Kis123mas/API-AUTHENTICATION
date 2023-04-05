@@ -53,11 +53,35 @@ USER REGISTERATION TEST.
 
 LOGIN REGISTERATION TEST.
 
+| Request | POST |
+| -------- | ----------- |
+| Url | POST  http://127.0.0.1:8000/api/login/ |
+| -------- | ----------- |
+| Select body, and then click on form-data | fill in these keys  : username and password *fill in your values for the keys and send* |
+| -------- | ----------- |
+| status | 200_OK - Login was successful.|
+| -------- | ----------- |
+| status | 400 Bad Request - Error in login |
 
-* UserDetails Endpoint - 
-* Change Password Endpoint - 
-* Reset Password Endpoint - 
-* Logout Endpoint - 
+
+[__USERDETAIL ENDPOINT__]
+
+USERDETAILS ENDPOINT TEST.
+
+| Request | GET |
+| -------- | ----------- |
+| Url | GET  http://127.0.0.1:8000/api/user/ |
+| -------- | ----------- |
+| Select headers | fill in your token  : in these format *Token <input token here>* |
+| -------- | ----------- |
+| status | 200_OK - Userdetail was successful.|
+| -------- | ----------- |
+| status | 400 Bad Request - Error in Userdetail |
+
+
+[__CHANGE PASSWORD ENDPOINT__]
+[__RESET PASSWORD ENDPOINT__] 
+[__LOGOUT ENDPOINT__]
 
 ## Project Status
 Project is : *in progress*
