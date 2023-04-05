@@ -48,6 +48,7 @@ USER REGISTERATION TEST.
 | status | 400 Bad Request - Error in registeration |
 
 
+
 [__LOGIN ENDPOINT__]
 
 LOGIN REGISTERATION TEST.
