@@ -42,9 +42,9 @@ All of the following are technologies used in this project:
 | -------- | ----------- |
 | Select body, and then click on form-data | fill in these keys  : username, password, email, first_name and last_name *fill in your values for the keys and send* |
 | -------- | ----------- |
-| status | 200_OK |
+| status | 200_OK  Registeration was successful.|
 | -------- | ----------- |
-| status | 400 Bad Request |
+| status | 400 Bad Request Error in registeration |
 
 
 
