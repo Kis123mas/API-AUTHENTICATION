@@ -48,28 +48,6 @@ USER REGISTERATION TEST.
 | status | 400 Bad Request - Error in registeration |
 
 
-200_OK Request Responses.
-
-{
-    "user_info": {
-        "id": 9,
-        "username": "user45",
-        "email": "1234578901@gmail.com"
-    },
-    "token": "07d201c956cee276c65400bb10a2f9d0d0a2eed4520fae941d5e988a62d4a45c"
-}
-
-400 Bad Request Responses.
-
-{
-    "username": [
-        "A user with that username already exists."
-    ],
-    "email": [
-        "A user with that Email already exists"
-    ]
-}
-
 
 [__LOGIN ENDPOINT__]
 
