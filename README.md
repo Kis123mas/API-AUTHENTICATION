@@ -43,9 +43,9 @@ USER REGISTERATION TEST.
 | -------- | ----------- |
 | Select body, and then click on form-data | fill in these keys  : username, password, email, first_name and last_name *fill in your values for the keys and send* |
 | -------- | ----------- |
-| status | 200_OK  Registeration was successful.|
+| status | 200_OK - Registeration was successful.|
 | -------- | ----------- |
-| status | 400 Bad Request Error in registeration |
+| status | 400 Bad Request - Error in registeration |
 
 
 
