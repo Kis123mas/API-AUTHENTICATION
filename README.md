@@ -39,7 +39,7 @@ All of the following are technologies used in this project:
 USER REGISTERATION TEST. 
 | Request | POST |
 | -------- | ----------- |
-| Url | http://127.0.0.1:8000/api/register/ |
+| Url | POST  http://127.0.0.1:8000/api/register/ |
 | -------- | ----------- |
 | Select body, and then click on form-data | fill in these keys  : username, password, email, first_name and last_name *fill in your values for the keys and send* |
 | -------- | ----------- |
