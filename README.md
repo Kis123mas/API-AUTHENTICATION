@@ -31,13 +31,44 @@ All of the following are technologies used in this project:
 [__ChangePassword__] - registered user can change the password by giving the old password and giving a new password and also the account token.
 
 
-## Usage
-* Register
-* Login
-* check user information
-* Change Password
-* Reset Password
-* Logout
+## EndPoints Test
+* Application used for testing the endpoints - *POSTMAN*
+
+[__Register Endpoint__]
+
+| Request | POST |
+| -------- | ----------- |
+| Url | http://127.0.0.1:8000/api/register/ |
+| -------- | ----------- |
+| Select body, and then click on form-data | fill in these keys  : username, password, email, first_name and last_name *fill in your values for the keys and send* |
+| -------- | ----------- |
+| status_200 ok | {
+    "user_info": {
+        "id": 8,
+        "username": "user4",
+        "email": "123457891@gmail.com"
+    },
+    "token": "adf50c2a06b44cf8363e6f1b7709d72f73c0e93deea5e409c2dc429a2974720c"
+} |
+| -------- | ----------- |
+| 400 Bad Request | {
+    "username": [
+        "A user with that username already exists."
+    ],
+    "email": [
+        "A user with that Email already exists"
+    ]
+} |
+
+
+
+
+
+* Login Endpoint - 
+* UserDetails Endpoint - 
+* Change Password Endpoint - 
+* Reset Password Endpoint - 
+* Logout Endpoint - 
 
 ## Project Status
 Project is : *in progress*
@@ -57,8 +88,6 @@ Contributions are what make the open source community such an amazing place to l
 * pytz==2023.2
 * sqlparse==0.4.3
 * tzdata==2023.2
-
-
 ### Getting Started
 Setting up project locally is a pretty easy step.
 
@@ -100,7 +129,3 @@ Setting up project locally is a pretty easy step.
    ```
 
 <br/>
-Download Postman.
-
-Default url: `http://127.0.0.1:8000/` 
-
