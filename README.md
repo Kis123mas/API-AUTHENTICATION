@@ -81,9 +81,51 @@ USERDETAILS ENDPOINT TEST.
 
 [__CHANGE PASSWORD ENDPOINT__]
 
+CHANGE PASSWORD ENDPOINT TEST.
+
+| Request | PUT |
+| -------- | ----------- |
+| Url | PUT  http://127.0.0.1:8000/api/change-password/ |
+| -------- | ----------- |
+| Select headers | create this key  : Authorization | fill in your token  : in these format *Token <input token here>* |
+| -------- | ----------- |
+| Select body, and then click on x-www-form-urlencoded | create in these keys  : old_password, new-password *fill in your values for the keys and send* |
+| -------- | ----------- |
+| status | 200_OK - Password Updated successfully.|
+| -------- | ----------- |
+| status | 401 Unauthorized, 400 Bad request |
+
+
+
 [__RESET PASSWORD ENDPOINT__]
 
+REST-PASSWORD ENDPOINT TEST.
+
+| Request | POST |
+| -------- | ----------- |
+| Url | POST  http://127.0.0.1:8000/api/change-password/ |
+| -------- | ----------- |
+| Select body, and then click on x-www-form-urlencoded | create in these keys  : token, password and email *fill in your values for the keys and send* |
+| -------- | ----------- |
+| status | 200_OK - Password reset Updated successful.|
+| -------- | ----------- |
+| status |400 Bad request |
+
+
 [__LOGOUT ENDPOINT__]
+
+LOGOUT ENDPOINT TEST.
+
+| Request | POST |
+| -------- | ----------- |
+| Url | POST  http://127.0.0.1:8000/api/logout/ |
+| -------- | ----------- |
+| Select headers | create this key  : Authorization | fill in your token  : in these format *Token <input token here>* |
+| -------- | ----------- |
+| status | 204 No content - Logout successful.|
+| -------- | ----------- |
+| status | 401 Unauthorized (invalid token), 400 Bad request |
+
 
 ## Project Status
 Project is : *in progress*
